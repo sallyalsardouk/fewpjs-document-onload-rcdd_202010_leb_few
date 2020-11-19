@@ -8,6 +8,6 @@ console.log(
 );
 let text=document.getElementsById("text")
 function change(text){
-  text.innerHTML="This is really cool!"
+  text.innerHTML='This is really cool!'
 }
 addEventListener(callback,change)
