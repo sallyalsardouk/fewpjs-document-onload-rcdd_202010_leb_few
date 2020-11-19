@@ -7,3 +7,6 @@ console.log(
   "This console.log() fires when index.js loads - before DOMContentLoaded is triggered"
 );
 let text=document.getElementsById("text")
+function change(text){
+  text.innerHTML=""
+}
